@@ -67,8 +67,8 @@ body {
 
 .column.medium {
   width: 300px;
-  background: pink;
-  display: block;
+  /*background: purple;*/
+  /*display: block;*/
 }
 
 .column.small {
@@ -143,19 +143,35 @@ body {
 
 
 /* Medium Column Styles */
+
+.enc_div {
+  display: flex;
+  flex-direction: column;
+  /*align-content: center;*/
+}
+
 .med_div_02 {
   background-image: url("resources/images/cat.png");
+  background-repeat: no-repeat;
+  height: 300px;
   display: flex;
-  border: 1px solid black;
-  display: flex;
+  align-items: center;
 }
 
 .med_div_02 h2 {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+  text-align: center;
   color: white;
+  text-shadow: 3px 3px 3px #000;
 }
+
+.medium h2 {
+  margin-top: 0px;
+  padding-top: 0;
+}
+
 
 /* Small Column Styles */
 .news_bites {
