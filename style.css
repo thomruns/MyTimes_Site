@@ -9,12 +9,12 @@ body {
 #header {
       display: flex;
       align-items: center;
-      /*position: fixed;*/
-      /*z-index: 1;*/
+      position: fixed;
+      z-index: 1;
       width: 100%;
       height: 80px;
       border-bottom: 1px solid black;
-      /*background-color: green;*/
+      background-color: white;
       font-family: Verdana; Arial, sans-serif;
       font-size: 14px;
       font-weight: bold;
@@ -51,13 +51,14 @@ body {
   font-size: 17px;
   color: #000;
   margin: 0 5px;
+  padding-top: 90px;
   /*background-color: lightgreen;*/
 }
 
 .column {
   display: flex;
   margin: 0 5px;
-  border: 1px solid black; /* Ultimately eliminate this border */
+  /*border: 1px solid black; */
   flex-wrap: wrap;
 }
 
@@ -65,7 +66,7 @@ body {
   width: 630px;
   /*background: yellow;*/
   margin: 0 5px;
-  border: 1px solid black; /* Ultimately eliminate this border */
+  /*border: 1px solid black; /* Ultimately eliminate this border */*/
   /*display: block;*/
 }
 
@@ -86,28 +87,39 @@ body {
 .leadstory {
   background-image: url("resources/images/phish.png");
   display: flex;
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  /*color: white;*/
-  border: 1px solid black;
+
+  color: white;
+  /*border: 1px solid black;*/
   height: 300px;
+  /*align-items: flex-start;*/
 }
 
-.headline {
+.leadstory h1 {
   color: #fff;
-  font-size: 1.4em;
+  font-size: 30px;
+  padding: 0 10px;
+  margin-top: 0px;
+}
+.narrative p {
+
+}
+
+.headline p{
+  color: green;
+  font-size: 30px;
+  /*font-weight: bold;*/
+
   /*display: block;*/
   /*justify-content: center;*/
   /*padding: 75px 10px;;*/
 }
 
 .stories {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   display: flex;
   width: 100%;
   /*flex-wrap: wrap;*/
-  background-color: lightgray;
+  /*background-color: lightgray;*/
 }
 
 
