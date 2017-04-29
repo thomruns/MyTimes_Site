@@ -52,22 +52,17 @@ body {
   color: #000;
   margin: 0 5px;
   padding-top: 90px;
-  /*background-color: lightgreen;*/
 }
 
 .column {
   display: flex;
   margin: 0 5px;
-  /*border: 1px solid black; */
   flex-wrap: wrap;
 }
 
 .column.large {
   width: 630px;
-  /*background: yellow;*/
   margin: 0 5px;
-  /*border: 1px solid black; /* Ultimately eliminate this border */*/
-  /*display: block;*/
 }
 
 .column.medium {
@@ -87,11 +82,8 @@ body {
 .leadstory {
   background-image: url("resources/images/phish.png");
   display: flex;
-
   color: white;
-  /*border: 1px solid black;*/
   height: 300px;
-  /*align-items: flex-start;*/
 }
 
 .leadstory h1 {
@@ -99,29 +91,13 @@ body {
   font-size: 30px;
   padding: 0 10px;
   margin-top: 0px;
-}
-.narrative p {
-
-}
-
-.headline p{
-  color: green;
-  font-size: 30px;
-  /*font-weight: bold;*/
-
-  /*display: block;*/
-  /*justify-content: center;*/
-  /*padding: 75px 10px;;*/
+  text-shadow: 3px 3px 3px #000;
 }
 
 .stories {
-  /*border: 1px solid black;*/
   display: flex;
   width: 100%;
-  /*flex-wrap: wrap;*/
-  /*background-color: lightgray;*/
 }
-
 
 .st_01_img {
   background-image: url("resources/images/fall.png");
@@ -138,7 +114,10 @@ body {
 
 .st_01_img h2 {
   font-size: 1.2em;
+  line-height: 1em;
   text-align: center;
+  margin: 0;
+  text-shadow: 3px 3px 3px #000;
 }
 
 .st_02_img {
@@ -155,23 +134,27 @@ body {
 
 .st_02_img h2 {
   font-size: 1.2em;
+  line-height: 1em;
   text-align: center;
+  margin: 0;
+  text-shadow: 3px 3px 3px #000;
 }
 
-.narrative {
-  /*width: 50%;*/
-}
 
 
 /* Medium Column Styles */
 .med_div_02 {
   background-image: url("resources/images/cat.png");
+  display: flex;
+  border: 1px solid black;
+  display: flex;
+}
+
+.med_div_02 h2 {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  display: flex;
-  border: 1px solid black;
 }
 
 /* Small Column Styles */
