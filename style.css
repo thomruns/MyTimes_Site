@@ -96,6 +96,7 @@ body {
 
 .headline {
   color: #fff;
+  font-size: 1.4em;
   /*display: block;*/
   /*justify-content: center;*/
   /*padding: 75px 10px;;*/
@@ -119,8 +120,15 @@ body {
   display: flex;
   height: 100px;
   border: 1px solid black;
-  width: 50%;
+  width: 300px;
+  height: 300px;
 }
+
+.st_01_img h2 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
 .st_02_img {
   background-image: url("resources/images/camera.png");
   font-family: Georgia;
@@ -129,7 +137,13 @@ body {
   color: white;
   display: flex;
   border: 1px solid black;
-  width: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.st_02_img h2 {
+  font-size: 1.2em;
+  text-align: center;
 }
 
 .narrative {
