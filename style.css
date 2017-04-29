@@ -58,14 +58,15 @@ body {
   display: flex;
   margin: 0 5px;
   border: 1px solid black; /* Ultimately eliminate this border */
+  flex-wrap: wrap;
 }
 
 .column.large {
   width: 630px;
-  background: yellow;
+  /*background: yellow;*/
   margin: 0 5px;
   border: 1px solid black; /* Ultimately eliminate this border */
-  display: block;
+  /*display: block;*/
 }
 
 .column.medium {
@@ -82,7 +83,7 @@ body {
 
 
 /* Large Column Styles */
-.lsimg_div {
+.leadstory {
   background-image: url("resources/images/phish.png");
   display: flex;
   font-family: Georgia;
@@ -97,14 +98,15 @@ body {
   color: #fff;
   /*display: block;*/
   /*justify-content: center;*/
-  padding: 75px 10px;;
+  /*padding: 75px 10px;;*/
 }
 
 .stories {
   border: 1px solid black;
   display: flex;
   width: 100%;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
+  background-color: lightgray;
 }
 
 
@@ -131,7 +133,7 @@ body {
 }
 
 .narrative {
-  width: 50%;
+  /*width: 50%;*/
 }
 
 
