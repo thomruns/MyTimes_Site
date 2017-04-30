@@ -50,7 +50,7 @@ body {
   display: flex;
   font-size: 17px;
   color: #000;
-  margin: 0 5px;
+  margin: 0 5px 50px 5px;
   padding-top: 90px;
 }
 
@@ -207,5 +207,27 @@ body {
 
 /* Footer Styles */
 .footer {
-  background-color: lightgreen;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.footer-logo {
+  font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ border-right: 2px solid white;
+ margin-right: 15px;
+ padding-right: 15px;
+}
+
+.footer-link a {
+  padding-right: 15px;
+  color: #000;
 }
