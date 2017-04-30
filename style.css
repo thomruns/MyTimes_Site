@@ -73,8 +73,8 @@ body {
 
 .column.small {
   width: 240px;
-  background: orange;
-  display: block;
+  /*background: orange;*/
+  /*display: block;*/
 }
 
 
@@ -174,9 +174,35 @@ body {
 
 
 /* Small Column Styles */
-.news_bites {
+
+.sm_enc {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+  /*align-items: center;*/
+}
+
+.sm_graphic_div {
   background-image: url("resources/images/cookie.png");
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.news_bites h2 {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news_bites li {
+  color: dimgray;
+  list-style: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+  font-family: Verdana, sans-serif;
+  font-size: .75em;
 }
 
 /* Footer Styles */
